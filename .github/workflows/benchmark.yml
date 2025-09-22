@@ -1,0 +1,20 @@
+name: benchmark
+
+on:
+    workflow_dispatch:
+
+jobs:
+    benchmark:
+        name: Benchmark
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup Go
+              uses: actions/setup-go@v5
+              with:
+                  go-version-file: "go.mod"
+
+            - name: Benchmark
+              run: make bench
