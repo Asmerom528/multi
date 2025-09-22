@@ -56,11 +56,11 @@ func (c *Chan[T]) Recv() T {
 // Close closes the channel's file descriptors.
 func (c *Chan[T]) Close() {
 	if c.w != nil {
-		c.w.Close()
+		_ = c.w.Close()
 		c.w = nil
 	}
 	if c.r != nil {
-		c.r.Close()
+		_ = c.r.Close()
 		c.r = nil
 	}
 	c.closed = true

@@ -76,12 +76,12 @@ func cases() {
 
 		err := p.Start()
 		if err != nil {
-			return fmt.Errorf("Start: %v", err)
+			return fmt.Errorf("start: %v", err)
 		}
 
 		err = p.Wait()
 		if err != nil {
-			return fmt.Errorf("Wait: got error %v, want nil", err)
+			return fmt.Errorf("wait: got error %v, want nil", err)
 		}
 
 		time.Sleep(50 * time.Millisecond)
@@ -117,7 +117,7 @@ func cases() {
 			select {
 			case <-done:
 			case <-time.After(50 * time.Millisecond):
-				return fmt.Errorf("Wait did not complete in time")
+				return fmt.Errorf("wait did not complete in time")
 			}
 		}
 		return nil
