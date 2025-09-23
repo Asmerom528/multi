@@ -10,7 +10,7 @@ It offers three types of "concurrent groups". Each one has an API similar to `sy
 
 -   `proc.Group` runs Go functions in separate OS processes. Each function executes in its own process forked from the main one. This implementation uses process forking, which is not supported by the Go runtime and can cause undefined behavior, especially in programs with multiple goroutines or complex state. Not meant for production use.
 
-I don't think anyone will find these concurrent groups useful in real-world situations, but it's still interesting to look at a possible (even if flawed) implementations and compare them to Go's default (and only) concurrency model.
+I don't think anyone will find these concurrent groups useful in real-world situations, but it's still interesting to look at possible (even if flawed) implementations and compare them to Go's default (and only) concurrency model.
 
 ## Usage
 
